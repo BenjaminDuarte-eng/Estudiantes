@@ -2,20 +2,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #fdf8f8;
 }
 
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #f3eded;
+    box-shadow: 0 0 10px rgba(31, 29, 29, 0.1);
 }
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #272525;
 }
 
 form {
@@ -39,15 +39,15 @@ input[type="number"] {
 }
 
 button {
-    background-color: #111111;
-    color: white;
+    background-color: #0c9417;
+    color: rgb(248, 237, 237);
     padding: 10px 15px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0065fc;
+    background-color: #232425;
 }
 
 table {
@@ -58,7 +58,7 @@ table {
 table th,
 table td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #141414;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ table td {
     font-size: 1.2em;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #007bff;
+    color: #0479f7;
 }
 
 .error {
@@ -117,8 +117,8 @@ table td {
 }
 
 .btn-edit {
-    background-color: #ffc107;
-    color: black;
+    background-color: #203bd8;
+    color: rgb(218, 210, 210);
     padding: 5px 10px;
 }
 
@@ -127,5 +127,36 @@ table td {
 }
 
 .btn-edit:hover {
-    background-color: #e0a800;
+    background-color: #0400e0;
+}
+
+
+.stat-container{
+ background-color: #f0ff8f;
+ padding: 15px;
+ border-radius: 8px;
+ margin: 20px 0;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-container h3{
+    margin-top: 0;
+    color: #9da5d3;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+
+.studentsLessThan5{
+    color: #f0142a;
+}
+
+
+.Menor{
+    color: #e91c30;
+}
+
+
+.Mayor{
+    color: #078b12;
 }
